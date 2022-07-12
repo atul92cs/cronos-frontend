@@ -1,0 +1,151 @@
+#button-section
+{
+    margin-left:2.5vw;
+}
+.navbar-dark
+{
+    background-color: black !important;
+}
+.main-section
+{
+    background:url('/images/top.jpg') center center no-repeat;
+    height: 95vh;
+    
+    
+}
+.infosection
+{
+    text-align: center;
+    padding: 25vh 5vw 25vh 5vw;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+.button-section
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+}
+#button-grid-1
+{
+    text-align: right;
+    margin-right: 0.5vw;
+}
+#button-grid-2
+{
+    text-align: left;
+}
+.button-section button
+{
+    text-transform: uppercase;
+}
+.announcement-section
+{
+    background-color: black;
+    color: white;
+}
+.announcement-section h2
+{
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+.upcoming-tournament
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5vh 5vw 5vh 5vw;
+}
+.upcoming-tournament img
+{
+    height: 30vh;
+    width: 25vw;
+    text-align: center;
+    margin: 5vh 2.5vw 5vh 2.5vw;
+}
+.tournament-title
+{
+    text-align: center;
+    color:#0dcaf0;
+    text-transform: uppercase;
+}
+.tournament-details
+{
+    padding: 0.5vh 2vw 0.5vh 2vw;
+    text-align:justify ;
+}
+.tournament-section button
+{
+    text-align:justify ;
+    margin-left: 2vw;
+    text-transform: uppercase;
+}
+.games-section
+{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+.games-section h2
+{
+    text-transform: uppercase;
+    text-decoration: overline;
+}
+.playable-games-section
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5vh 5vw 5vh 5vw;
+}
+.playable-games-section div
+{
+    padding: 2vh 2vw 2vh 2vw;
+}
+.playable-games-section img 
+{
+    height: 35vh;
+    width: 25vw;
+}
+.website-footer
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2vh 2vw 2h 2vw;
+    background-color: black;
+    color: white;
+
+}
+.social-media-section
+{
+    margin-left: 5vw;
+}
+#social-list
+{
+    margin-left: 7.5vw;
+}
+.social-media-section h3 
+{
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.copyright-section h4
+{
+    text-align: center;
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+.misc-section 
+{
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+.misc-section ul li 
+{
+    list-style: none;
+}
