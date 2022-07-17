@@ -149,3 +149,62 @@
 {
     list-style: none;
 }
+.main-form-section
+{
+   
+    margin-top: 2.5vh;
+
+}
+.form-section
+{
+    margin:30vh 30vw 30vh 30vw;
+    border: #0dcaf0 solid 0.5px;
+    padding: 2vh 2vw 2vh 2vw;
+    border-radius: 5px;
+}
+#email,#password,#conpassword,#phone,#username
+{
+    border: #0dcaf0 solid 0.5px;
+    background: none;
+    color: white;
+}
+#register-body
+{
+    background: url('/images/top.jpg') center center no-repeat;
+}
+.main-form-section h1
+{
+    color: #0dcaf0;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 2.5vh;
+}
+.main-form-section p
+{
+    color:aliceblue;
+    text-align: center;
+    margin-top: 2vh;
+}
+#login-body
+{
+    background: url('/images/login.jpg') center center no-repeat;
+}
+.login-form-section h1
+{
+    text-align: center;
+    margin:5vh 5vw 5vh 5vw;
+    text-transform: uppercase;
+    color: #0dcaf0
+}
+.login-form-section
+{
+    margin: 35vh 35vw 35vh 35vw;
+    border: #0dcaf0 solid 1.5px;
+    padding: 2.5vh 2.5vw 2.5vh 2.5vw;
+    border-radius: 2.5px;
+}
+.login-form-section button
+{
+    text-transform: uppercase;
+}
