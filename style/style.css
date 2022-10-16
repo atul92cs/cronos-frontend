@@ -208,3 +208,54 @@
 {
     text-transform: uppercase;
 }
+.sidebar{
+
+    
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 100vh;
+    
+    margin-left: 0;
+    transition: 0.5s;
+    
+}
+.pe-4
+{
+    padding-right: 1.5rem !important;
+}
+.pb-3
+{
+    padding-bottom: 1rem !important;
+}
+.main-dashboard
+{
+    display: grid;
+    grid-template-columns:0.5fr 2fr;
+    
+    
+}
+.content-section
+{
+    margin-top:5vh; 
+    text-align: left;
+    margin-left: 0;
+}
+.content-section h4 
+{
+    text-align: center;
+}
+.stat-section
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    text-align: center;
+}
+.sub-content
+{
+    border: solid 0.5px;
+    margin: 5vh 5vw 5vh 5vw;
+    padding:5vh 5vw 5vh 5vw;
+}
